@@ -1,0 +1,35 @@
+1.<script>
+var a=0;
+var i=1;
+do{
+a+=i
+i++
+}
+while(i<67)
+document.write(a)
+</script>
+
+
+
+
+2.        for (var i = 7; i >= 1; i--) { 
+            for (var k = 0; k < 7- i; k++) {
+                document.write('&nbsp;&nbsp;&nbsp;');
+            }
+            for (var j = 0; j < i; j++) {   
+                document.write('￥&nbsp;&nbsp;&nbsp;&nbsp;');
+            }
+            document.write('<br />');
+        }
+
+
+3.function factorialize(num) {
+  var m = 1;
+  for(var i = 1; i <= num; i++){
+    m = m * i;
+  }
+  
+  return m;
+}
+ 
+factorialize(5);
